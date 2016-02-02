@@ -10,3 +10,8 @@ before_install:
 
 script:
   - gulp ci
+
+env:
+  global:
+    - SAUCE_USERNAME=angular-ui-mask
+    - SAUCE_ACCESS_KEY=b4b4d64e-4188-4cae-a91c-29214a389c8a
