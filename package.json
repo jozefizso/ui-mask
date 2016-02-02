@@ -1,9 +1,9 @@
 {
-  "name": "angular-ui-mask",
+  "name": "jozefizso/angular-ui-mask",
   "version": "1.7.2",
-  "author": "https://github.com/angular-ui/ui-mask/graphs/contributors",
+  "author": "https://github.com/jozefizso/ui-mask/graphs/contributors",
   "license": "MIT",
-  "homepage": "https://github.com/angular-ui/ui-mask",
+  "homepage": "https://github.com/jozefizso/ui-mask",
   "dependencies": {},
   "devDependencies": {
     "del": "~1.2.0",
@@ -36,7 +36,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular-ui/ui-mask.git"
+    "url": "https://github.com/jozefizso/ui-mask.git"
   },
   "keywords": [
     "angular",
