@@ -1,7 +1,7 @@
 /*!
  * angular-ui-mask-jozefizso
  * https://github.com/jozefizso/ui-mask
- * Version: 2.0.1 - 2016-02-03T18:44:35.569Z
+ * Version: 2.0.2 - 2016-02-03T20:12:16.896Z
  * License: MIT
  */
 
