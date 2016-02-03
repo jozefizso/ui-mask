@@ -1,7 +1,7 @@
 /*!
- * angular-ui-mask
+ * angular-ui-mask-jozefizso
  * https://github.com/jozefizso/ui-mask
- * Version: 2.0.0 - 2016-02-03T18:31:46.107Z
+ * Version: 2.0.1 - 2016-02-03T18:44:35.569Z
  * License: MIT
  */
 
@@ -34,6 +34,9 @@ angular.module('ui.mask', [])
             };
             this.eventsToHandle = function(eventsToHandle) {
                 return options.eventsToHandle = eventsToHandle;
+            };
+            this.placeholderChar = function(placeholderChar) {
+                return options.placeholderChar = placeholderChar;
             };
             this.$get = ['uiMaskConfig', function(uiMaskConfig) {
                 var tempOptions = uiMaskConfig;
