@@ -1,7 +1,7 @@
 /*!
  * angular-ui-mask
- * https://github.com/angular-ui/ui-mask
- * Version: 1.7.2 - 2016-02-01T14:35:21.404Z
+ * https://github.com/jozefizso/ui-mask
+ * Version: 1.7.2 - 2016-02-03T00:52:32.080Z
  * License: MIT
  */
 
@@ -20,7 +20,8 @@ angular.module('ui.mask', [])
             },
             clearOnBlur: true,
             clearOnBlurPlaceholder: false,
-            eventsToHandle: ['input', 'keyup', 'click', 'focus']
+            eventsToHandle: ['input', 'keyup', 'click', 'focus'],
+            placeholderChar: '_'
         })
         .provider('uiMask.Config', function() {
             var options = {};
@@ -324,7 +325,7 @@ angular.module('ui.mask', [])
                                 if (angular.isDefined(placeholder) && placeholder[i]) {
                                     return placeholder[i];
                                 } else {
-                                    defaultPlaceholderChar = angular.isDefined(iAttrs.uiMaskPlaceholderChar) && iAttrs.uiMaskPlaceholderChar ? iAttrs.uiMaskPlaceholderChar : '_';
+                                    defaultPlaceholderChar = angular.isDefined(iAttrs.uiMaskPlaceholderChar) && iAttrs.uiMaskPlaceholderChar ? iAttrs.uiMaskPlaceholderChar : options.placeholderChar;
                                     return (defaultPlaceholderChar.toLowerCase() === 'space') ? ' ' : defaultPlaceholderChar[0];
                                 }
                             }

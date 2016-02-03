@@ -388,7 +388,7 @@ describe("uiMask", function () {
 
       expect(input.attr("placeholder")).toBe("__/__/____");
     });
-
+    
     it("should allow mask substitutions via the placeholder attribute", function() {
 
       var placeholderHtml = "<input name='input' ng-model='x' ui-mask='{{mask}}' placeholder='MM/DD/YYYY'>",
