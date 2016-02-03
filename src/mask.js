@@ -25,6 +25,9 @@ angular.module('ui.mask', [])
             this.eventsToHandle = function(eventsToHandle) {
                 return options.eventsToHandle = eventsToHandle;
             };
+            this.placeholderChar = function(placeholderChar) {
+                return options.placeholderChar = placeholderChar;
+            };
             this.$get = ['uiMaskConfig', function(uiMaskConfig) {
                 var tempOptions = uiMaskConfig;
                 for(var prop in options)
