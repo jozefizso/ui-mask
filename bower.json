@@ -17,7 +17,7 @@
     "demo",
     "test",
     "src",
-    "*.js",
+    "gulpfile.js",
     "package.json"
   ]
 }
